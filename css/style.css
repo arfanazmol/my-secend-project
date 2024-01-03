@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: #FFF3DA;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.main {
+    width: 648px;
+    background: #DFCCFB;
+    padding-top: 35px;
+    border: 3px solid #000;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+.head span {
+    color: #A2FF86;
+}
+
+.input {
+    background: #FFF3DA;
+    width: 520px;
+    height: 60px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+
+}
+.input::placeholder{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    background: #A2FF86;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    border: none;
+    border-radius: 10px; 
+    margin-bottom: 60px;
+
+}
+.result{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #000;  
+    text-align: start;
+}
